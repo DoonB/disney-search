@@ -1,0 +1,39 @@
+/* Updated Kingdom Hearts-inspired CSS for card container */
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #0c2340; /* Deep blue, Kingdom Hearts color */
+    border: 2px solid #5e2750; /* Dark magenta border */
+    border-radius: 10px;
+    padding: 25px;
+    cursor: pointer;
+    color: #ffffff; /* White text for contrast */
+    font-family: 'Arial', sans-serif; /* Clean and modern font */
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    transition: transform 0.25s ease-out, box-shadow 0.3s ease-out;
+}
+
+.card-container:hover {
+    transform: translateY(-5px) scale(1.05); /* Lift and scale on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+
+.card-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif; /* Elegant serif font for headings */
+    color: #ffcc00; /* Bright yellow, Kingdom Hearts accent color */
+}
+
+.card-container p {
+    line-height: 1.4;
+}
+
+/* Darken the background and border on click for added drama */
+.card-container:active {
+    background-color: #06101e; /* Darker blue on click */
+    border-color: #5e2750; /* Dark magenta border on click */
+}

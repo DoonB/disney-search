@@ -1,0 +1,28 @@
+/* KingdomHeartsStyles.css */
+
+/* Styling for the load bar */
+.loadbar {
+  width: 25%;
+  height: 20px;
+  background-color:black; /* Kingdom Hearts gold color */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the load button */
+.loadbutton {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif; /* Choose a suitable Kingdom Hearts-like font */
+  background-color: #2d5ca3; /* Kingdom Hearts blue color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loadbutton:hover {
+  background-color: #1a4073; /* Darker blue on hover */
+}

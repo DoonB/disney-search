@@ -1,33 +1,49 @@
+/* Updated Maleficent-themed CSS */
+
+/* Base styles for the entire app */
 .App {
   text-align: center;
 }
 
+/* Styling for the main heading */
+h1 {
+  font-family: 'Bigelow Rules', cursive; /* Elegant and slightly gothic font */
+  font-size: 72px;
+  color:steelblue; /* Dark purple, Maleficent's color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+/* Logo image styles */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* Animation for logo spin (if motion is enabled) */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* Header styles */
 .App-header {
-  background-color: #282c34;
+  background-color: #1a0620; /* Darker purple, Maleficent's color */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(14px + 2vmin); /* Slightly increased font size */
+  color: #ffffff; /* White text */
 }
 
+/* Link styles */
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* Accent color for links */
 }
 
+/* Keyframes for logo spin animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
