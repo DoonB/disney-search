@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/disney-search/static/css/main.f55f4cf8.css",
+    "main.css": "/disney-search/static/css/main.d52aae5f.css",
     "main.js": "/disney-search/static/js/main.86d1f9e1.js",
     "static/js/453.5d3a426d.chunk.js": "/disney-search/static/js/453.5d3a426d.chunk.js",
     "index.html": "/disney-search/index.html",
-    "main.f55f4cf8.css.map": "/disney-search/static/css/main.f55f4cf8.css.map",
+    "main.d52aae5f.css.map": "/disney-search/static/css/main.d52aae5f.css.map",
     "main.86d1f9e1.js.map": "/disney-search/static/js/main.86d1f9e1.js.map",
     "453.5d3a426d.chunk.js.map": "/disney-search/static/js/453.5d3a426d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f55f4cf8.css",
+    "static/css/main.d52aae5f.css",
     "static/js/main.86d1f9e1.js"
   ]
 }
