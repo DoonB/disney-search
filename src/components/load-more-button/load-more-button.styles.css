@@ -4,7 +4,8 @@
 .loadbar {
   width: 25%;
   height: 20px;
-  background-color:gold; /* Kingdom Hearts gold color */
+  background-color:gold;
+  color: aliceblue; /* Kingdom Hearts gold color */
   border-radius: 10px;
   margin-bottom: 20px;
 }
